@@ -3,7 +3,8 @@
     "std/": "https://deno.land/std@0.208.0/"
   },
   "tasks": {
-    "start": "deno run -A src/main.ts"
+    "start": "deno run -A src/main.ts",
+    "dev": "deno run -A --watch src/main.ts"
   },
   "lint": {
     "rules": {
